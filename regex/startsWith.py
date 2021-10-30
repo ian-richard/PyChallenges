@@ -1,5 +1,11 @@
 def validate_code(code):
+    import re
+    return bool(re.match(r"^[123]\d*$",str(code)))
+
+def validate_code_og(code):
      return str(code).startswith(('1','2','3'))
+
+
 
 print(validate_code(123) == True)
 print(validate_code(248) == True)
