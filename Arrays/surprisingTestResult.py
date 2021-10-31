@@ -1,9 +1,9 @@
 def sum (x=0, y=[]):
     y.append(x)
     if (len(y) % 2 == 0):
-         print ("Even")
+         return ("Even")
     else:
-        print ("Odd")
+        return ("Odd")
 
 print(sum(), "1") 
 print(sum(1), "2") ##odd or even?
