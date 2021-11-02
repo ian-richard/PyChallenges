@@ -8,6 +8,7 @@ unusual_five = lambda: ord("")
 #https://en.wikipedia.org/wiki/ASCII
 
 print(unusual_five() == 5)
+print(unusual_five())
 
 
 # Description:
